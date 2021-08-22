@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SoilInteractable : MonoBehaviour
 {
+    [SerializeField]
+    private Transform TilledPrefab;
     // Start is called before the first frame update
     void Start()
     {
